@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="client"/>
+  <qresource prefix="newPrefix">
+    <file>reamscord-removebg-preview.png</file>
+  </qresource>
+</RCC>

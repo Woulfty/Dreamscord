@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="src/img/dd2.jpg" />
+    <link rel='stylesheet' type='text/css' href='src/css/index.css'>
+    <title>Dreamscord</title>
+</head>
+<body>
+    <div id="container">
+        <h1 class="title">DREAMSCORD</h1>
+        <div id="connexion" class="form">
+            <form method="post">
+                <h2 class="title-page">Connexion</h2>
+                <div>
+                    <input type="text" id="inputLogin_Connexion" class="input-text" placeholder="Entrez votre login" required>
+                    <input type="password" id="inputPassword_Connexion" class="input-text" placeholder="Entrez votre mot de passe" required>
+                </div>
+                <div>
+                    <input type="button" id="inputConnect_Connexion" class="input-button" value="Se Connecter">
+                    <input type="button" id="inputRegister_Connexion" class="input-button" value="S'inscrire">
+                </div>
+            </form>
+        </div>
+        <div id="inscription" class="form">
+            <form method="post">
+                <h2 class="title-page">Inscription</h2>
+                <div>
+                    <input type="text" id="inputLogin_Inscription" class="input-text" placeholder="Entrez un login" required>
+                    <input type="password" id="inputPassword_Inscription" class="input-text" placeholder="Entrez un mot de passe" required>
+                </div>
+                <div>
+                    <input type="button" id="inputConnect_Inscription" class="input-button" value="Se Connecter">
+                    <input type="button" id="inputRegister_Inscription" class="input-button" value="S'inscrire">
+                </div>
+            </form>
+        </div>
+        <div id="message" class="message">
+            <div id="scrollMessage" class="scroll-message">
+                <div class="scroll-message-text">
+                    <div id="messageText" class="message-text"></div>
+                </div>
+            </div>
+            <form method="post">
+                <div class="input-message">
+                    <input type="text" id="inputMessage" class="input-text" placeholder="Envoyer un message sur Dreamscord" required>
+                    <input type="button" id="inputSend" class="input-button" value="Envoyer">
+                </div>
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="src/js/socket.js"></script>
+</body>
+</html>
